@@ -294,7 +294,7 @@ header .navbar ul li a:hover {
 .contact .mail-container .right-container form {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .contact .mail-container .right-container form input {
   width: 35rem;
@@ -375,6 +375,9 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width: 400px) {
+  section {
+    min-height: 80vh;
+  }
   html {
     font-size: 42%;
   }
