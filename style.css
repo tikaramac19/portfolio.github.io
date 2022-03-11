@@ -376,10 +376,10 @@ header .navbar ul li a:hover {
 
 @media (max-width: 400px) {
   section {
-    min-height: 80vh;
+    min-height: 100vh;
   }
   html {
-    font-size: 42%;
+    font-size: 45%;
   }
   header {
     width: 100vw;
