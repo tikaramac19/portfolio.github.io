@@ -149,12 +149,12 @@
           </div>
         </div>
         <div class="right-container">
-          <form>
-            <input type="text" placeholder="name" />
-            <input type="email" placeholder="email" />
+          <form id="myform" method="get" onsubmit="validateForm()">
+            <input type="text" placeholder="name" class="name" id="name" />
+            <input type="email" placeholder="email" class="email" id="email" />
             <textarea
-              name=""
-              id=""
+              name="textarea"
+              id="textarea"
               cols="30"
               rows="10"
               placeholder="message"
