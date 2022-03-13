@@ -216,7 +216,56 @@ header .navbar ul li a:hover {
 }
 /* about section styling ends */
 
-/* education section styling start */
+/* education section styling sarts */
+.education .box-container .box {
+  height: 20rem;
+  cursor: auto;
+  padding: 2rem;
+}
+.box-container .box1 {
+  border-left: 0.2rem solid #0bc248;
+  outline: none;
+}
+.box-container .box1 i {
+  font-size: 3rem;
+  color: #0bc248;
+  margin-right: 1rem;
+}
+.box-container .box1 span {
+  font-size: 2.4rem;
+  color: rgb(238, 199, 125);
+}
+.box-container .box1 h3 {
+  font-size: 1.8rem;
+  color: rgb(233, 227, 227);
+  margin: 1rem 0rem;
+}
+.box-container .box1 p {
+  font-size: 1.4rem;
+  color: rgb(233, 227, 227);
+  line-height: 2rem;
+}
+
+/* education section styling ends */
+/* common style for box-container */
+.box-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box-container .box {
+  height: 30rem;
+  width: 30rem;
+  margin: 2rem;
+  /* flex-grow: 1; */
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+/* ends here */
+/* portfolio section styling start */
 
 .commingup {
   height: 80vh;
@@ -230,23 +279,6 @@ header .navbar ul li a:hover {
   color: white;
 }
 
-.box-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.box-container .box {
-  height: 30rem;
-  width: 30rem;
-  background: gray;
-  margin: 2rem;
-  /* flex-grow: 1; */
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 1rem;
-}
 .box-container .box img {
   height: 100%;
   width: 100%;
@@ -256,7 +288,7 @@ header .navbar ul li a:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
-/* education section styling ends */
+/* portfolio section styling ends */
 
 /* contact info styling */
 
